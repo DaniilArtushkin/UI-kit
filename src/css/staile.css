@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+ }
+.conteiner{
+
+    width: 1160px;
+    margin: 0 auto;
+}
+.header{
+    min-height: 70px;
+}
+.header__logo{
+    margin-top: 15px;
+    display: inline-block;
+}
+.header__nav{
+    float: right;
+    padding: 26px;
+    margin-right: 310px;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+.header__nav__menu{
+    text-decoration: none;
+    padding: 26px 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+    margin-left: 0px;
+}
+.header__nav__menu__activ{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: rgba(31, 32, 65, 0.75);
+    text-decoration: none;
+}
+.header-button__еntrance{
+    display: inline-block;
+    width: 87px;
+    height: 34px;
+    border-radius: 22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #BC9CFF;
+    margin-left: 750px;
+    margin-top: 18px;
+    position: absolute;
+    outline: none;
+    border-color: #BC9CFF;
+    background-color: #FFFFFF;
+}
+.header-button__registration{
+    display: inline-block ;
+    width: 196px;
+    height: 34px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 860px;
+    margin-top: 18px;
+    outline: none;
+    border: 0;
+}
